@@ -38,7 +38,7 @@ async function main() {
       .readFileSync('urls.txt', 'utf8')
       .trim()
       .split('\n');
-    const customText = 'Bismillah Mati'; // Custom text
+    const customText = 'Bismillah Mati lu dan keluargalu'; // Custom text
     const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
     while (true) {
       await sendMessages(urls, customText);
